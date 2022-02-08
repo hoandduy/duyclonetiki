@@ -1,0 +1,43 @@
+.container {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    .title {
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: 500;
+      color: rgb(56, 56, 61);
+      margin-bottom: 12px;
+      margin-top: 0px;
+    }
+    span, a {
+      font-size: 12px;
+      line-height: 16px;
+      color: rgb(128, 128, 137);
+      margin-bottom: 8px;
+      margin-top: 0px;
+      text-decoration: none;
+    }
+    a {
+      &.number {
+        color: rgb(56, 56, 61);
+        font-weight: 500;
+      }
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  .payment {
+    svg {
+      margin-right: 10px;
+    }
+  }
+  p {
+    a {
+      margin-right: 10px;
+    }
+  }
+}

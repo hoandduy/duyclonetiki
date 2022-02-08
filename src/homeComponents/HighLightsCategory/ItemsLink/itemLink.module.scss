@@ -1,0 +1,29 @@
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  a {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-basis: 10%;
+    text-decoration: none;
+    color: #000;
+    img {
+      border-radius: 20px;
+      overflow: hidden;
+      width: 60px;
+      height: 60px;
+    }
+    span {
+      text-align: center;
+      margin: 12px 0px 16px;
+      padding: 0px 12px;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+      overflow: hidden;
+      font-size: 13px;
+      line-height: 20px;
+    }
+  }
+}

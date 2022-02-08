@@ -1,0 +1,12 @@
+.container {
+  margin: 16px 16px 0 16px;
+  .imgWrapper {
+    img {
+      border: 1px solid rgb(238, 238, 238);
+      border-radius: 8px;
+      width: 598px;
+      height: 201px;
+      object-fit: cover;
+    }
+  }
+}

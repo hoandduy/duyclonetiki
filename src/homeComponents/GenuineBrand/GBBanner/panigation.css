@@ -1,0 +1,13 @@
+.swiper {
+  padding-bottom: 30px;
+}
+.swiper-button-prev,
+.swiper-button-next {
+  opacity: .4;
+  color: #fff;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  opacity: .8;
+}

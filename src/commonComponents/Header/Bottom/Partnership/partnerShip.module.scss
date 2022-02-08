@@ -1,0 +1,18 @@
+.wrapper {
+  text-decoration: none;
+  background: #53afff;
+  padding: 2px 8px;
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+
+  .img {
+    margin-right: 4px;
+    width: 12px;
+  }
+  .text {
+    color: #fff;
+    font-size: 12px;
+  }
+}

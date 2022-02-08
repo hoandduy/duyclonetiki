@@ -1,0 +1,14 @@
+.container {
+  position: relative;
+  overflow: scroll;
+  .wrapper {
+    flex-wrap: nowrap;
+    transition: margin-left 1s;
+    &.moveForward {
+      margin-left: -1240px;
+    }
+  }
+  .removeBtn {
+    display: none
+  }
+}

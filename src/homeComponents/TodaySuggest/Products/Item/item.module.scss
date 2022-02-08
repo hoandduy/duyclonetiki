@@ -1,0 +1,72 @@
+.itemLink {
+  text-decoration: none;
+  color: rgb(56, 56, 61);
+  &:hover {
+    box-shadow: 1px 1px 10px rgba(190, 187, 187, 0.3);
+  }
+  .itemWrapper {
+    padding: 12px;
+    .itemImage {
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .itemInfo {
+      .name {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        overflow: hidden;
+        span {
+          font-size: 13px;
+          font-weight: 400;
+          margin: 0px 0px 4px;
+          line-height: 20px;
+          word-break: break-word;
+        }
+      }
+      .status {
+        font-size: 11px;
+        display: flex;
+        .saled {
+          position: relative;
+          padding-left: 8px;
+          margin-left: 4px;
+          span {
+            &::before {
+              content: "";
+              position: absolute;
+              top: 50%;
+              left: 0;
+              transform: translateY(-50%);
+              border-left: 1px solid rgb(164, 164, 182);
+              height: 9px;
+            }
+          }
+        }
+      }
+      .priceWrapper {
+        &.isDisCount {
+          color: rgb(255, 66, 78);
+        }
+        .priceTag {
+          font-size: 16px;
+          line-height: 24px;
+          font-weight: 500;
+        }
+        .discountTag {
+          padding: 0px 2px;
+          line-height: 14px;
+          font-size: 12px;
+          font-weight: 400;
+          margin-left: 8px;
+          border: 1px solid rgb(255, 66, 78);
+          border-radius: 2px;
+          background-color: rgb(255, 240, 241);
+          color: rgb(255, 66, 78);
+        }
+      }
+    }
+  }
+}

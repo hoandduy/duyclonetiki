@@ -1,0 +1,35 @@
+.cartWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  margin-left: 26px;
+  margin-right: 10px;
+  cursor: pointer;
+  .cartIcon {
+    width: 32px;
+    height: 32px;
+  }
+  .cartNumberItem {
+    background: #fdd835;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    
+    text-align: center;
+    font-weight: 600;
+    font-size: 13px;
+
+    position: absolute;
+    top: 0;
+    left: 16px;
+  }
+  .cartTitle {
+    font-size: 12px;
+    color: #fff;
+    font-weight: 400;
+    align-self: flex-end;
+    margin-bottom: 4px;
+    margin-left: 4px;
+  }
+}

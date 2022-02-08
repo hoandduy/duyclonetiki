@@ -1,0 +1,10 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 0;
+  .img {
+    width: 295px;
+    height: 150px;
+    border-radius: 20px;
+  }
+}

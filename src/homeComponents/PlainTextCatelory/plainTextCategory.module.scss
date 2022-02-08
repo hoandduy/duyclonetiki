@@ -1,0 +1,42 @@
+@mixin btnLocated {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-40%);
+  background: #fff;
+  cursor: pointer;
+}
+
+.container {
+  position: relative;
+  overflow: hidden;
+  .wrapper {
+    .slider {
+      display: inline-block;
+      white-space: nowrap;
+      padding: 15px 0;
+      transition: all 0.4s ;
+      will-change: margin;
+      &.active {
+        margin-left: -50%;
+      }
+      .option {
+        text-decoration: none;
+        text-align: center;
+        display: inline-block;
+        .text {
+          font-size: 14px;
+          color: rgb(56, 56, 61);
+          padding: 0 16px;
+        }
+      }
+    }
+  }
+  .backBtn {
+    @include btnLocated;
+    left: 0;
+  }
+  .forwardBtn {
+    @include btnLocated;
+    right: 0;
+  }
+}

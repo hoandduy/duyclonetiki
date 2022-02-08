@@ -1,0 +1,34 @@
+.userAuth {
+  display: flex;
+  color: #fff;
+  cursor: pointer;
+  align-items: center;
+  &Left {
+    &Icon {
+      width: 32px;
+      height: 32px;
+      margin-right: 8px;
+      margin-top: 4px;
+    }
+  }
+  &Right {
+    &LoginAndRegis {
+      display: flex;
+      font-size: 11px;
+      font-weight: 500;
+      &Login {
+        padding-right: 3px;
+      }
+      &Regis {
+        padding-left: 3px ;
+      }
+    }
+    &Account {
+      font-size: 13px;
+      &Icon {
+        width: 18px;
+        margin-bottom: -4px;
+      }
+    }
+  }
+}

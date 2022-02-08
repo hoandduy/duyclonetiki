@@ -1,0 +1,1 @@
+export const BOOL_CHANGE = 'boolChange'

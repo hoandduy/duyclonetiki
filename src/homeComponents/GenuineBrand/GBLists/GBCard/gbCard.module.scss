@@ -1,0 +1,21 @@
+.cardLink {
+  .wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    img {
+      border: 1px solid rgb(238, 238, 238);
+      border-radius: 8px;
+      width: 190px;
+      height: 284px;
+    }
+    span {
+      position: absolute;
+      color: rgb(26, 148, 255);
+      bottom: 0;
+      font-size: 14px;
+      font-weight: 400;
+      padding-bottom: 16px;
+    }
+  }
+}

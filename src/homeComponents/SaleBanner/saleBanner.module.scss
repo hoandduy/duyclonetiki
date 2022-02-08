@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  a {
+    display: inline-block;
+    width: 394px;
+    height: 150px;
+    background-color: rgb(232, 232, 232);
+    border-radius: 20px;
+    overflow: hidden;
+  }
+}

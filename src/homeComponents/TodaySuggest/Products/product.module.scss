@@ -1,0 +1,22 @@
+.seeMore {
+  width: 100%;
+  text-align: center;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  .seeMoreBtn {
+    cursor: pointer;
+    display: inline-block;
+    width: 240px;
+    padding: 8px 12px;
+    border-radius: 4px;
+    border: 1px solid rgb(13, 92, 182);
+    color: rgb(13, 92, 182);
+    font-size: 13px;
+    font-weight: 500;
+    &:hover {
+      color: rgb(255, 255, 255);
+      background-color: rgb(13, 92, 182);
+      border-color: rgb(13, 92, 182);
+    }
+  }
+}

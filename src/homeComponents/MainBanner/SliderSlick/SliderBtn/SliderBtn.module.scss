@@ -1,0 +1,29 @@
+@mixin btnSize {
+  height: 56px;
+  width: 32px;
+}
+
+@mixin btnLocated {
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0.4;
+  transition: opacity .2s;
+}
+
+.slideBtn {
+  position: absolute;
+  &.next {
+    @include btnLocated;
+    right: 0;
+  }
+  &.prev {
+    @include btnLocated;
+  }
+  .nextArrow {
+    @include btnSize;
+  }
+  .prevArrow {
+    @include btnSize;
+    transform: rotate(180deg)
+  }
+}

@@ -1,0 +1,21 @@
+.wrapper {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  height: 160px;
+  .sideAds {
+    border-radius: 4px;
+    height: 160px;
+    width: 204px;
+    object-fit: cover;
+  }
+  
+  .centerAds {
+    border-radius: 4px;
+    height: 160px;
+    width: 800px;
+    object-fit: cover;
+  }
+}
